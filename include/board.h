@@ -92,6 +92,10 @@
 #include "sama5d2_xplained.h"
 #endif
 
+#ifdef CONFIG_SAMA5D3_WIFX
+#include "sama5d3_wifx.h"
+#endif
+
 #include "contrib_board.h"
 
 /*
